@@ -4,17 +4,27 @@ This is a Rust-based WebAssembly library for transliterating Russian text into L
 
 ## 📦 Installation
 
-Using `wasm-pack`:
-
+### Install the package via NPM:
 ```sh
-wasm-pack build
+npm install rus_to_latin
+```
+
+### Install the package via Yarn:
+```sh
+yarn add rus_to_latin
+```
+
+### Install the package via Bun:
+```sh
+bun add rus_to_latin
 ```
 
 ## 🚀 Usage
 
-`russian_to_latin` function takes a string of Russian text and returns a string of Latin characters.
+### **Russian to Latin Transliteration**
+The `russian_to_latin` function converts Russian text into Latin characters:
 ```js
-import init, { russian_to_latin } from "./pkg/rus_to_latin.js";
+import init, { russian_to_latin } from "rus_to_latin";
 
 async function run() {
     await init();
@@ -24,9 +34,10 @@ async function run() {
 run();
 ```
 
-`latin_to_russian` function takes a string of Latin characters and returns a string of Russian text.
+### **Latin to Russian Transliteration**
+The `latin_to_russian` function converts Latin text back into Russian:
 ```js
-import init, { latin_to_russian } from "./pkg/rus_to_latin.js";
+import init, { latin_to_russian } from "rus_to_latin";
 
 async function run() {
     await init();

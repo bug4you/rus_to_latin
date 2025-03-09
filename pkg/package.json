@@ -5,7 +5,7 @@
     "Dilshod Fayzullayev <algoexpret.uz@gmail.com>"
   ],
   "description": "A Rust-based WebAssembly library for Russian to Latin transliteration",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,13 +20,13 @@
   "main": "rus_to_latin.js",
   "homepage": "https://github.com/bug4you/rus_to_latin#readme",
   "types": "rus_to_latin.d.ts",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "sideEffects": [
     "./rus_to_latin.js",
     "./snippets/*"
   ],
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
   "keywords": [
     "wasm",
     "webassembly",

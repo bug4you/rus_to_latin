@@ -58,7 +58,7 @@ dependencies = [
 
 [[package]]
 name = "rus_to_latin"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde_json",
  "wasm-bindgen",

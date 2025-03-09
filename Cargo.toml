@@ -1,6 +1,6 @@
 [package]
 name = "rus_to_latin"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A Rust-based WebAssembly library for Russian to Latin transliteration"
 repository = "https://github.com/bug4you/rus_to_latin"
