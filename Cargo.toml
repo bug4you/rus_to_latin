@@ -1,0 +1,25 @@
+[package]
+name = "rus_to_latin"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust-based WebAssembly library for Russian to Latin transliteration"
+repository = "https://github.com/bug4you/rus_to_latin"
+license = "MIT"
+authors = ["Dilshod Fayzullayev <algoexpret.uz@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/bug4you/rus_to_latin#readme"
+categories = ["web-programming", "wasm"]
+publish = true
+keywords = [
+    "wasm",
+    "webassembly",
+    "rust",
+    "transliteration",
+    "russian",
+]
+
+[dependencies]
+wasm-bindgen = "0.2.100"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
