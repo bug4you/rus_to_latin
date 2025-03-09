@@ -24,6 +24,9 @@
     "./rus_to_latin.js",
     "./snippets/*"
   ],
+  "scripts": {
+    "publish": "cd pkg && npm publish --access public"
+  },
   "keywords": [
     "wasm",
     "webassembly",
