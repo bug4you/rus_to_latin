@@ -1,5 +1,3 @@
-mod build;
-
 use wasm_bindgen::prelude::*;
 use std::collections::HashMap;
 
