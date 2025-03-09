@@ -25,7 +25,7 @@
     "./snippets/*"
   ],
   "scripts": {
-    "publish": "cd pkg && npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "wasm",
