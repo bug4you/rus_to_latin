@@ -1,0 +1,34 @@
+{
+  "name": "rus_to_latin",
+  "type": "module",
+  "collaborators": [
+    "Dilshod Fayzullayev <algoexpret.uz@gmail.com>"
+  ],
+  "description": "A Rust-based WebAssembly library for Russian to Latin transliteration",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bug4you/rus_to_latin"
+  },
+  "files": [
+    "rus_to_latin_bg.wasm",
+    "rus_to_latin.js",
+    "rus_to_latin_bg.js",
+    "rus_to_latin.d.ts"
+  ],
+  "main": "rus_to_latin.js",
+  "homepage": "https://github.com/bug4you/rus_to_latin#readme",
+  "types": "rus_to_latin.d.ts",
+  "sideEffects": [
+    "./rus_to_latin.js",
+    "./snippets/*"
+  ],
+  "keywords": [
+    "wasm",
+    "webassembly",
+    "rust",
+    "transliteration",
+    "russian"
+  ]
+}
